@@ -1,0 +1,16 @@
+{
+  "name": "claude-session-topic",
+  "owner": {
+    "name": "somebodil"
+  },
+  "metadata": {
+    "description": "The session-topic mod for Claude Code: the topic of the conversation, in one line above the prompt."
+  },
+  "plugins": [
+    {
+      "name": "session-topic",
+      "source": "./session-topic",
+      "description": "Shows the session's current topic in a band above the prompt and keeps it up to date as the conversation moves."
+    }
+  ]
+}

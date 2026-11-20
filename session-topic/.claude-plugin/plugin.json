@@ -1,0 +1,19 @@
+{
+  "name": "session-topic",
+  "version": "0.2.0",
+  "description": "Shows the session's current topic in a band above the prompt and keeps it up to date as the conversation moves.",
+  "author": { "name": "somebodil", "url": "https://github.com/somebodil" },
+  "homepage": "https://github.com/somebodil/claude-session-topic",
+  "repository": "https://github.com/somebodil/claude-session-topic",
+  "license": "MIT",
+  "keywords": ["mod", "topic", "prompt"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "prefix": {
+      "type": "string",
+      "title": "Prefix",
+      "description": "The word shown in front of the label. The default, 주제, is Korean for \"topic\".",
+      "default": "주제"
+    }
+  }
+}

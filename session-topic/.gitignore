@@ -1,0 +1,2 @@
+# The type definitions Claude Code writes when it loads the mod (written anew by every build)
+.claude-plugin/types/
